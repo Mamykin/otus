@@ -4,14 +4,20 @@ Terraform скрипт для автоматизации установки и �
 
 Для аутентификации и корректного запуска скрипта необходимо.
 
-Установить terraform (для Fedora OD) 
+Установить terraform (для Fedora OS) 
+
 sudo dnf install -y dnf-plugins-core
+
 sudo dnf config-manager addrepo --from-repofile=https://rpm.releases.hashicorp.com/fedora/hashicorp.repo
+
 sudo dnf -y install terraform
 
 Клонировать ранее созданный репозиторий
+
 git clone https://github.com/<username>/<reponame>.git
-подгрузить переменные окружения:
+
+
+Подгрузить переменные окружения:
 
 export FOLDER_NAME=practikum
 
