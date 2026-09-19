@@ -67,6 +67,9 @@ users:
 
 `terraform apply`
 
+## Для удаления окружения и ВМ 
+
+`terraform destroy`
 
 
 
