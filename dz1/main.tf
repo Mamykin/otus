@@ -70,7 +70,7 @@ resource "yandex_compute_instance" "vm_1" {
     nat       = true
   }
   metadata = {
-    ssh-keys           = "ubuntu:${file("/home/fse/.ssh/major.pub")}"
+    ssh-keys           = "ubuntu:${file("/home/${USER}/.ssh/id_ed25519")}"
     serial-port-enable = "1"
   }
 
